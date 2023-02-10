@@ -6,14 +6,14 @@ public class Reverse5LetterString {
         String temporary = "";
         int len = word.length();
 
-        for (int i = 0; i < len; i++) {
-
-                if (len < 5) {
-                    temporary = word;
-                }
+        if (len < 5) {
+            temporary = word;
+        }
+            else {
+                for (int i = 0; i < len; i++) {
                 temporary = word.charAt(i) + temporary;
+                }
             }
-
             return temporary;
         }
     }
