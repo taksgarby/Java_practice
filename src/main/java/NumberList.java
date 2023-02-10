@@ -6,7 +6,7 @@ public class NumberList {
 
     public NumberList(ArrayList<Integer> numbers) {
         this.numbers = numbers;
-        );
+
     }
 
     public int getNumberCount(){
